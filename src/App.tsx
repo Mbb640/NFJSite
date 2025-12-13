@@ -12,7 +12,7 @@ function App() {
         <p>
           {/* Automatically embeds the latest video from the NFJ youtube account */}
           <iframe width="600" height="340" src="https://www.youtube.com/embed?listType=user_uploads&list=NewfoundlandFJ" allowFullScreen className="embed" />
-          <iframe width="600" height="340" src="https://player.twitch.tv/?channel=newfoundlandfightingjam&autoplay=false&parent=github.io&parent=localhost" allow="encrypted-media *;" className="embed" />
+          <iframe width="600" height="340" src="https://player.twitch.tv/?channel=newfoundlandfightingjam&autoplay=false&parent=mbb640.github.io&parent=localhost" allow="encrypted-media *;" className="embed" />
         </p>
       </div>
       <p className="read-the-docs">
