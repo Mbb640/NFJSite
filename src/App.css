@@ -41,3 +41,17 @@
 .banner {
   width: 60vw;
 }
+
+.social-icon {
+  text-decoration: none;
+  margin: 0 16px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+
+.list-horizontally {
+  display: flex;
+  justify-content: center;
+}
