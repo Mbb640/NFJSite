@@ -27,21 +27,21 @@ function App() {
         </div>
       </div>
       <div className="card">
-        <div>
+        <div className="embedded-media">
           <h2 className="label">Latest YouTube VOD</h2>
           {/* Automatically embeds the latest video from the NFJ youtube account */}
-          <iframe width="600" height="340" src="https://www.youtube.com/embed?listType=user_uploads&list=NewfoundlandFJ" allowFullScreen className="embed" />
+          <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=NewfoundlandFJ" allowFullScreen className="embed embedded-media" />
         </div>
         <div>
           <h2 className="label">Live Twitch Stream</h2>
           {/* Twitch channel embed */}
-          <iframe width="600" height="340" src="https://player.twitch.tv/?channel=newfoundlandfightingjam&autoplay=false&parent=nlfightingjam.com&parent=localhost" allow="encrypted-media *;" className="embed" />
+          <iframe src="https://player.twitch.tv/?channel=newfoundlandfightingjam&autoplay=false&parent=nlfightingjam.com&parent=localhost" allow="encrypted-media *;" className="embed embedded-media" />
         </div>
       </div>
       <div className="card">
         <div>
           <h2 className="label">Upcoming Events</h2>
-          <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FSt_Johns&showPrint=0&mode=AGENDA&showTabs=0&showCalendars=0&title=Upcoming%20NFJ%20Events&src=nlfightingjam%40gmail.com&color=%230b8043" width="800" height="600" frameBorder="0" scrolling="no" className="embed"></iframe>
+          <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FSt_Johns&showPrint=0&mode=AGENDA&showTabs=0&showCalendars=0&title=Upcoming%20NFJ%20Events&src=nlfightingjam%40gmail.com&color=%230b8043" frameBorder="0" scrolling="no" className="embed calendar"></iframe>
         </div>
       </div>
     </>
