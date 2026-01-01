@@ -19,32 +19,42 @@
   filter: drop-shadow(0 0 2em #e6962faa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.discord {
+  will-change: filter;
+  transition: filter 300ms;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.discord:hover {
+  filter: drop-shadow(0 0 1em #5865F2);
 }
+
+.twitter {
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.twitter:hover {
+  filter: drop-shadow(0 0 1em #FAF9F6);
+}
+
 
 .card {
   padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .banner {
   width: 60vw;
 }
 
+.icon-container {
+  padding: 0 16px;
+}
+
 .social-icon {
   text-decoration: none;
-  margin: 0 16px;
   display: inline-block;
   width: 48px;
   height: 48px;
@@ -54,4 +64,9 @@
 .list-horizontally {
   display: flex;
   justify-content: center;
+}
+
+.label {
+  margin: 4px;
+  color: #e6962faa;
 }
