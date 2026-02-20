@@ -39,6 +39,15 @@
   filter: drop-shadow(0 0 1em #FAF9F6);
 }
 
+.facebook {
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.facebook:hover {
+  filter: drop-shadow(0 0 1em #1877F2);
+  
+}
 
 .card {
   padding: 2rem 0;
@@ -74,6 +83,10 @@
 .label {
   margin: 4px;
   color: #e6962faa;
+}
+
+.left {
+  text-align: left;
 }
 
 .calendar {

@@ -25,6 +25,13 @@ function App() {
             </svg>
           </a>
         </div>
+        <div className='icon-container'>
+          <a href='https://www.facebook.com/groups/newfoundlandfightingjam/' target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" className="social-icon facebook">
+              {/* Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc. */}
+              <path fill='#1877F2' d="M576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 440 146.7 540.8 258.2 568.5L258.2 398.2L205.4 398.2L205.4 320L258.2 320L258.2 286.3C258.2 199.2 297.6 158.8 383.2 158.8C399.4 158.8 427.4 162 438.9 165.2L438.9 236C432.9 235.4 422.4 235 409.3 235C367.3 235 351.1 250.9 351.1 292.2L351.1 320L434.7 320L420.3 398.2L351 398.2L351 574.1C477.8 558.8 576 450.9 576 320z" /></svg>
+          </a>
+        </div>
       </div>
       <div className="card">
         <div className="embedded-media">
@@ -36,6 +43,16 @@ function App() {
           <h2 className="label">Live Twitch Stream</h2>
           {/* Twitch channel embed */}
           <iframe src="https://player.twitch.tv/?channel=newfoundlandfightingjam&autoplay=false&parent=nlfightingjam.com&parent=localhost" allow="encrypted-media *;" className="embed embedded-media" />
+        </div>
+      </div>
+      <div className='card'>
+        <div>
+          <h2 className="label">About Us</h2>
+          <p className="left">
+            NFJ (Newfoundland Fighting Jam) is a local community run and operated MUNSU group that has been fostering and hosting our local fighting game community for nearly 20 years. From newer titles like Street Fighter 6 and Guilty Gear Strive, to old school fighting games from the 90s, and everything in between.
+
+            We are a place for likeminded people to come share in our love of this hobby. We host tournaments or otherwise play games almost every Sunday, participate in outside events, and host our own special events throughout the year. Sundays are free and welcome to all, and we are always looking to welcome new gamers into the fold.
+          </p>
         </div>
       </div>
       <div className="card">
